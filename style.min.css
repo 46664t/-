@@ -1,0 +1,642 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap');
+
+@font-face {
+    font-family: 'Golos Text';
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/golostext/v4/q5uCsoe9Lv5t7Meb31EcEx58hLxR.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+body {
+    background-color: rgb(23, 23, 23);
+    font-family: 'Golos Text';
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.navleft li {
+    color: white;
+    display: inline-block;
+}
+
+.navleft {
+    list-style-type: none;
+    word-spacing: 7px;
+}
+
+.navright li {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+
+
+}
+
+.navright span {
+    margin-left: 5px;
+}
+
+.navright {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin-left: 48%;
+}
+
+.stranger {
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9px;
+}
+
+.stranger h1 {
+    font-size: 60px;
+    color: white;
+    padding: 20% 0 0 7%;
+}
+
+.stranger-list li {
+    color: rgb(177, 177, 177);
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 25px;
+}
+
+.stranger-list {
+    list-style-type: none;
+    padding-left: 7%;
+    margin-top: -2%;
+}
+
+.age-stranger {
+    border: 1px;
+}
+
+.stranger-text {
+    color: white;
+    width: 30%;
+    padding-left: 7%;
+    font-size: 17px;
+}
+
+.button-stranger {
+    display: flex;
+    align-items: center;
+    padding-bottom: 7%;
+}
+
+.play-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, rgb(53, 53, 243) 0%, rgb(170, 214, 255) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 7%;
+
+}
+
+.play-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.video-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, rgb(0, 0, 68) 0%, rgb(52, 54, 5) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 2%;
+
+}
+
+.video-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.bookmark-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background: linear-gradient(to right, rgb(0, 0, 68) 0%, rgb(52, 54, 5) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: 2%;
+
+}
+
+.bookmark-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.recommendation h1 {
+    color: white;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.recommendation-list {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.recommendation img {
+    width: 125%;
+    border-radius: 5px;
+}
+
+.caption {
+    margin-top: 10px;
+    font-size: 16px;
+    color: white;
+}
+
+.caption-line {
+    margin-bottom: 5px;
+}
+
+.recommendation-one {
+    margin-right: 6.5%;
+}
+
+.recommendation-two {
+    margin-right: 6.5%;
+}
+
+.recommendation-tree {
+    margin-right: 6.5%;
+}
+
+.recommendation-four {
+    margin-right: 6.5%;
+}
+
+.space {
+    background-image: url(img/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 9px;
+}
+
+.space h1 {
+    color: white;
+    font-size: 70px;
+    width: 10%;
+    padding: 10% 0 0 7%;
+}
+
+.info-space {
+    color: white;
+    font-size: 23px;
+    width: 40%;
+    padding-left: 7%;
+    padding-bottom: 1%;
+
+}
+
+.space-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 50px;
+    background: linear-gradient(to right, rgb(53, 53, 243) 0%, rgb(170, 214, 255) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 7%;
+}
+
+.button-space {
+    padding-bottom: 7%;
+}
+
+
+.attention {
+    background: linear-gradient(to right, rgb(255, 89, 0) 0%, rgb(248, 186, 0) 100%);
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    width: 200px;
+    padding: 0.5px;
+    text-align: center;
+    border-radius: 40px;
+    margin: 0;
+
+}
+
+
+.insomnia {
+    margin-top: 10%;
+}
+
+.insomnia h1 {
+    font-size: 60px;
+    color: white;
+    padding: 0;
+}
+
+
+.insomnia-list li {
+    color: rgb(177, 177, 177);
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 25px;
+
+
+}
+
+
+.insomnia-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: -5%;
+}
+
+
+.insomnia-text p {
+    color: rgb(222, 222, 222);
+    font-size: 17px;
+}
+
+
+.info-insomnia {
+    float: left;
+    width: 35%;
+}
+
+
+.sum p {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+.insomniaone img {
+    float: right;
+    width: 62%;
+    border-radius: 10px;
+}
+
+
+.button-insomnia {
+    display: flex;
+    margin-bottom: 6%;
+
+}
+
+.play2-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, rgb(53, 53, 243) 0%, rgb(170, 214, 255) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 4%;
+
+}
+
+
+.play2-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.video2-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background: linear-gradient(to right, rgb(0, 0, 68) 0%, rgb(34, 34, 32) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 4%;
+
+}
+
+
+.video2-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.bookmark2-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    background: linear-gradient(to right, rgb(0, 0, 68) 0%, rgb(34, 34, 32) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 4%;
+
+}
+
+
+.bookmark2-button img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+
+.content-list {
+    width: 37%;
+}
+
+
+.my-list li {
+    display: inline-block;
+    font-size: 20px;
+    color: gray;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+
+.my-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.img-list {
+    float: right;
+    width: 63%;
+    margin-top: -40%;
+    margin-right: 0;
+
+}
+
+
+.img-list img {
+    margin: 0 0 25px 25px;
+    border-radius: 7px;
+    width: 47%;
+    padding: 0;
+}
+
+
+.text-list p {
+    font-size: 17px;
+    color: rgb(217, 217, 217);
+    line-height: 30px;
+}
+
+
+.text-list {
+    padding-bottom: 20%;
+}
+
+.informat {
+    background-color: rgb(40, 40, 40);
+    margin-left: -180px;
+    margin-right: -179px;
+}
+
+.inforrma {
+    padding: 7% 0 5% 15%;
+}
+
+.inforr-text {
+    width: 30%;
+    float: right;
+    margin-right: 20%;
+    margin-top: -30%;
+}
+
+.inforr-text h3 {
+    color: white;
+    font-size: 27px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.inforr-text p {
+    color: rgb(231, 231, 231);
+    font-size: 17px;
+}
+
+.inforr-textblue {
+    margin-top: -5%;
+}
+
+.oneone {
+    display: flex;
+    align-items: center;
+    width: 120%;
+
+}
+
+.i-two {
+    margin-left: 10%;
+}
+
+.twotwo {
+    display: flex;
+    align-items: center;
+    width: 120%;
+}
+
+.inforr-textblue h1 {
+    background: linear-gradient(to right, #0400ff 0%, #82befe 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+    margin-right: 70px;
+
+}
+
+.inforr-textblue p {
+    color: rgb(231, 231, 231);
+    font-size: 17px;
+    margin-top: -11%;
+    margin-right: 70px;
+}
+
+.forma h1 {
+    color: white;
+    font-size: 60px;
+    margin-top: 5%;
+
+
+}
+
+.forma p {
+    color: #fff;
+    font-size: 17px;
+    width: 40%;
+}
+
+form {
+    width: 600px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #d3d3d3;
+    font-size: 17px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+
+input[type="text"],
+input[type="email"] {
+    width: 80%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 15px;
+    border: 0.5px solid #848484;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+input[type="submit"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background: linear-gradient(to right, rgb(53, 53, 243) 0%, rgb(170, 214, 255) 100%);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 7%;
+}
+
+.scidki {
+    float: right;
+    width: 63%;
+    margin-top: -40%;
+
+}
+
+.actionone {
+    background: linear-gradient(to right, rgb(0, 0, 70) 0%, rgb(33, 51, 69) 100%);
+    padding: 10px 0 2px 20px;
+    width: 300px;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+
+.act-one {
+    font-size: 17px;
+    margin-left: 35%;
+
+
+}
+
+.act-two {
+    font-size: 40px;
+    background: linear-gradient(to right, #0400ff 0%, #ebeff4 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-left: 30%;
+    padding: 0;
+    margin-top: -2%;
+
+}
+
+.act-three {
+    margin-left: 30%;
+    margin-top: -10%;
+}
+
+footer {
+    background-color: rgb(40, 40, 40);
+    margin-left: -180px;
+    margin-right: -179px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+
+}
+
+.footerleft li {
+    color: white;
+    display: inline-block;
+    margin-right: 50px;
+
+
+}
+
+.footerleft {
+    list-style-type: none;
+
+}
+
+.footerright li {
+    color: white;
+    margin-right: 20px;
+
+
+}
+
+.footerright {
+    list-style-type: none;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 0;
+    margin-left: 50%;
+
+}
